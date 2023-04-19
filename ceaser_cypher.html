@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cypher.css">
+    <title>Ceaser Cypher</title>
+</head>
+<body>
+    <div class="c1">
+        <h1>Ceaser Cypher</h1>
+    </div>
+    <div class="c2">
+        <p>Encrypt-Decrypt Text</p>
+        <label for="">Enter Text</label><br>
+        <textarea name="" id="textarea" cols="30" rows="10"></textarea><br>
+        <label for="">key</label><br>
+        <input type="number" id="key"><br>
+        <button type="buton" onclick="encrypt()">Encrypt</button>
+        <button type="buton" onclick="decrypt()">Decrypt</button>
+        <p>Output Text:</p>
+        <p id="show"></p>
+    </div>
+<script src="cypher.js"></script>
+</body>
+</html>
